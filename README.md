@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/python-3.13.5-blue)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![Licença](https://img.shields.io/badge/license-MIT-orange)
 # Python Curso em Vídeo Community
 
 Bem-vindo ao Python Curso em Vídeo Community! 🚀
@@ -21,7 +24,7 @@ A proposta é simples:
 * Aprender a colaborar em um projeto open source.
 * Compartilhar diferentes soluções para o mesmo problema.
 
-## Como participar
+## Como Participar
 ### 1. Faça um Fork deste repositório.
 Forque este repositório clicando no botão **FORK** na parte superior desta página. Isso criará uma cópia deste repositório na sua conta.
 <img width="1262" height="81" alt="Captura de tela de 2026-08-12 18-56-55" src="https://github.com/user-attachments/assets/6cd55f13-1059-4f1c-bd83-e89fefe06bb1" />
@@ -35,12 +38,19 @@ Abra um terminal e execute o seguinte comando git:
 ```
 git clone "url copiado"
 ```
-
+Por exemplo:
+```
+git clone git@github.com:SEU-NOME/python-curso-em-video-community.git
+```
 Onde "url copiado" (sem as aspas) é o url ssh para este repositório. Aqui você está copiando o conteúdo do repositório no GitHub para o seu computador.
 ***
 ### 3. Criando uma branch
 Altere para o diretório do repositório no seu computador (se você ainda não estiver lá):
 
+Abra o diretório:
+```
+cd python-curso-em-video-community
+```
 Crie uma branch com:
 ```
 git checkout -b sua-branch
@@ -57,9 +67,10 @@ Agora que você está na sua branch, escolha o Mundo que você está estudando.
 
 Crie sua pasta dentro do Mundo e faça sua solução para os exercícios.
 
-<img width="941" height="408" alt="image" src="https://github.com/user-attachments/assets/432dcc50-2971-4fed-aefc-e300eefc8488" />
+**🔴 ATENÇÃO: O NOME DA PASTA PRECISA SER SEU NOME DE USUÁRIO PARA EVITAR CONFLITOS**
 
-Faça um README.md e coloque o seu perfil do GitHub para outras pessoas te acompanharem.
+<img width="986" height="444" alt="Captura de tela de 2026-08-12 20-42-56" src="https://github.com/user-attachments/assets/d1599391-c627-47cf-86c1-8e8936e82b8e" />
+
 ***
 ### 5. ADD e COMMIT
 Adicione essas alterações a branch que você acabou de criar usando o `git add`: (substitua "jose" pelo seu nome)
