@@ -30,6 +30,14 @@ Forque este repositório clicando no botão **FORK** na parte superior desta pá
 <img width="1262" height="81" alt="Captura de tela de 2026-08-12 18-56-55" src="https://github.com/user-attachments/assets/6cd55f13-1059-4f1c-bd83-e89fefe06bb1" />
 ***
 ### 2. Clone o Fork para sua máquina.
+
+Sinta-se a vontade para escolher o método de autenticação que preferir:
+* 🟢 [Guia de Autenticação via GitHub CLI](./docs/autenticacao-cli.md)
+* 🔑 [Guia de Autenticação via SSH](./docs/autenticacao-ssh.md)
+* 🌐 [Guia de Autenticação via Personal Access Token (PAT)](./docs/autenticacao-pat.md)
+
+No exemplo irei utilizar o SSH:
+
 Agora clone o repositório bifurcado para sua máquina. Vá para a sua conta do GitHub, abra o repositório bifurcado, clique no botão de código e, em seguida, na guia SSH e clique no ícone copiar url para área de transferência.
 <img width="923" height="426" alt="Captura de tela de 2026-08-12 19-10-36" src="https://github.com/user-attachments/assets/f454ba34-abbe-4308-90b3-efe01edc9a80" />
 
@@ -73,13 +81,13 @@ Crie sua pasta dentro do Mundo e faça sua solução para os exercícios.
 
 ***
 ### 5. ADD e COMMIT
-Adicione essas alterações a branch que você acabou de criar usando o `git add`: (substitua "jose" pelo seu nome)
+Adicione essas alterações a branch que você acabou de criar usando o `git add`: (o ponto significa todas as alterações feitas)
 ```
-git add add-jose/
+git add .
 ```
 Agora comprometa essas alterações usando o `git commit`:
 ```
-git commit -m 'add 'seu-nome' a lista de exercícios'
+git commit -m 'add seu-nome a lista de exercícios'
 ```
 ***
 ### 6. Push para o GitHub
