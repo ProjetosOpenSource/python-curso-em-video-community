@@ -34,7 +34,7 @@ Forque este repositório clicando no botão **FORK** na parte superior desta pá
 Sinta-se a vontade para escolher o método de autenticação que preferir:
 * 🟢 [Guia de Autenticação via GitHub CLI](./docs/autenticacao-cli.md)
 * 🔑 [Guia de Autenticação via SSH](./docs/autenticacao-ssh.md)
-* 🌐 [Guia de Autenticação via Personal Access Token (PAT)](./docs/autenticacao-pat.md)
+* 🌐 [Guia de Autenticação via HTTPS (PAT)](./docs/autenticacao-pat.md)
 
 No exemplo irei utilizar o SSH:
 
